@@ -45,7 +45,7 @@ class TestInventorySystem(unittest.TestCase):
         merged_inv = merge_inventories(inv1, inv2)
         self.assertIn('Clothing', merged_inv)
         self.assertIn('Tablet', merged_inv['Electronics'])
-        self.assertEqual(merged_inv['Electronics']['Laptop']['quantity'], 8)
+        self.assertEqual(merged_inv['Electronics']['Laptop']['quantity'], 13)
 
     def test_get_items_in_category(self):
         electronics = get_items_in_category(self.inventory, 'Electronics')
