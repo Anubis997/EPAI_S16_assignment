@@ -1,1 +1,1 @@
-# EPAI_S16_assignment
+This code implements an inventory management system that organizes items into categories like "Electronics" and "Groceries." It includes functions to create an initial inventory, update item details, and merge two inventories while preserving data. Users can retrieve items by category, check if an item is in stock, and find the most expensive item. The system also allows viewing available categories, all items, and category-item pairs. Additionally, it supports copying the entire inventory, either deeply or shallowly, using the copy module.
